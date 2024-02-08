@@ -5,7 +5,7 @@ for(let pos = 0; pos < num.length; pos++){
 }*/
 
 console.log(`Listando posições e valores do vetor:`)
-
+/*
 for(let pos in num){
     console.log(`A posição ${pos} do vetor tem o valor ${num[pos]}`)
 }
@@ -14,4 +14,6 @@ console.log(`Buscando Posições no Vetor:`)
 
 for(let pos in num){
     console.log(`O Valor ${num[pos]} está na posição ${num.indexOf(num[pos])}`)
-}
+}*/
+
+console.log(num.indexOf(7))
